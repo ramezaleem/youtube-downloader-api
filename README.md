@@ -1,0 +1,42 @@
+# YouTube Downloader API (Railway Ready)
+
+## 🚀 Features
+- Download YouTube videos (audio+video)
+- Supports any quality (auto-selects best)
+- Works perfectly on **Railway**
+- CORS enabled
+- Optional API key protection
+
+---
+
+## 📦 Installation
+```
+npm install
+npm start
+```
+
+---
+
+## ▶ Usage
+Download a video:
+```
+http://localhost:8080/download?url=YOUTUBE_LINK
+```
+
+If API_KEY enabled:
+```
+http://localhost:8080/download?url=YOUTUBE_LINK&key=YOUR_KEY
+```
+
+---
+
+## 🚀 Deploy to Railway
+1. Create new project → Deploy from GitHub or upload ZIP  
+2. Add optional environment variable:
+```
+API_KEY=mysupersecret
+```
+3. Done. Railway will generate a public URL:
+```
+https://your-app.up.railway.app/download?url=...
+```
