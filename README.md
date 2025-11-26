@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # YouTube Downloader API (Railway Ready)
 
 ## 🚀 Features
